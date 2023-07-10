@@ -1,3 +1,5 @@
-.main-heading{
-  background-color:cyan;
+#main-heading{
+  color: cyan;
+  font-family: serif;
+  
   }
