@@ -9,6 +9,7 @@
     position: relative;
 }
 .navbar a,
+.navbar-brand,
   .navbar a:focus {
     display: flex;
     align-items: center;

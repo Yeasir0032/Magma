@@ -8,6 +8,7 @@ export default function App() {
     <div>
       <Router>
         <nav className="navbar nav-menu" id="navbar">
+          <span class="navbar-brand" href="#">MAGMA</span>
           <ul>
             <li><Link to="/">Home</Link></li>
              <li><Link to="/Notes">Notes</Link></li>
