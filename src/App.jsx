@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div>
       <Router>
-        <nav className="navbar">
+        <nav className="navbar nav-menu" id="navbar">
           <ul>
             <li><Link to="/">Home</Link></li>
              <li><Link to="/Notes">Notes</Link></li>
