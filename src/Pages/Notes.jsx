@@ -1,4 +1,5 @@
 import {useState} from "react"
+import "./pagutil.css"
 
 
 export const Notes = () => {
@@ -9,7 +10,11 @@ export const Notes = () => {
 
   
   return (<div>
-    <h1>This is a Notes page</h1>
+    <h1>Notes - Magma</h1><br/>
+    <div className="add-note-area">
+      <input type="text" />
+      <button id="btn-add" onClick="add-note" >+</button>
+    </div>
   
   </div>
 );
